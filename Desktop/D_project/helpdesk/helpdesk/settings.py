@@ -121,10 +121,10 @@ STATIC_URL = 'static/'
 # Конфигурация сервера электронной почты
 
 EMAIL_HOST = '192.168.34.195'
-EMAIL_HOST_USER = 'a09@yandex.ru'
+EMAIL_HOST_USER = 'a09'
 EMAIL_HOST_PASSWORD = 'tsq92P1G091'
 EMAIL_PORT = 25
-EMAIL_USE_TLS = True
+EMAIL_USE_TLS = False
 EMAIL_USE_SSL = False
 #EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 

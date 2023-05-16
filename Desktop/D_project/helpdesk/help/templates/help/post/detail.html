@@ -8,6 +8,30 @@
     Published {{ post.publish }} by {{ post.author }}
 </p>
 {{ post.body|linebreaks }}
+<p>
+    <a href="{% url 'help:post_share' post.id %}">
+        Поделиться задачей (отправить на e-mail)
+    </a>
+</p>
+{% with comments.count as total_comments %}
+<h2>
+    {{ total_comments}} комментарий {{ total_comments|pluralize }}
+</h2>
+{% endwith %}
+{% for comment in comments %}
+<div class="comment">
+    <p class="info">
+        Комментарий {{ forloop.counter}} на {{ comment.name }}
+        {{ comment.created }}
+    </p>
+</div>
+{% empty %}
+    <p>
+        Нет комментариев
+    </p>
+{% endfor %}
+
+{% include help/post/includes/comment_form.html %}
 
 {% endblock %}
 
