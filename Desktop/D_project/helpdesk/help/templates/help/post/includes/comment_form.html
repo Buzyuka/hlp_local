@@ -1,5 +1,8 @@
 <h2>Добавить комментарий</h2>
 <form action="{% url 'help:post_comment' post.id %}" method="post">
-    {{ form.as.p }}
+    {{ form.as_p }}
     {% csrf_token %}}
+    <p>
+        <input type="submit" value="Добавить комментарий">
+    </p>
 </form>

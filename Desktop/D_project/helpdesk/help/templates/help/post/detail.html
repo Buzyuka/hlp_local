@@ -24,6 +24,9 @@
         Комментарий {{ forloop.counter}} на {{ comment.name }}
         {{ comment.created }}
     </p>
+    <p>
+        {{ comment.body|linebreaks }}
+    </p>
 </div>
 {% empty %}
     <p>
@@ -31,7 +34,7 @@
     </p>
 {% endfor %}
 
-{% include help/post/includes/comment_form.html %}
+{% include 'help/post/includes/comment_form.html' %}
 
 {% endblock %}
 
