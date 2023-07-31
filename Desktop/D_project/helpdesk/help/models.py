@@ -2,6 +2,7 @@ from django.db import models
 from django.utils import timezone
 from django.contrib.auth.models import User
 from django.urls import reverse
+from taggit.managers import TaggableManager
 
 
 # Create your models here.
@@ -28,6 +29,7 @@ class Post(models.Model):
     status = models.CharField(max_length=2, choices=Status.choices, default=Status.DRAFT)
     objects = models.Manager()  # менеджер по умолчанию
     published = PublishedManager()
+    tags = TaggableManager()
 
 # Публикация последних постов(задач) от последних к первым
     class Meta:
@@ -57,6 +59,12 @@ class Comment(models.Model):
     created = models.DateTimeField(auto_now_add=True)
     updated = models.DateTimeField(auto_now=True)
     active = models.BooleanField(default=True)
+
+# Модель системы теггирования
+
+#class Tag(models.Model):
+
+
 
     class Meta:
         ordering = ['created']

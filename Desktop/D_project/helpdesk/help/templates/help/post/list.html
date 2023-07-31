@@ -4,12 +4,22 @@
 
 {% block content %}
 <h1>СКОРАЯ ПОМОЩЬ</h1>
+{% if tag %}
+    <h2>Пост, который содержит тег: "{{ tag.name }}"</h2>
+{% endif %}
 {% for post in posts%}
 <h2>
     <a href="{{ post.get_absolute_url }}">
         {{post.title}}
     </a>
 </h2>
+<p class="tags">
+    Tags:
+    {% for tag in post.tags.all %}
+        <a href="{% url 'help:post_list_by_tag' tag.slug %}">{{ tag.name }}</a>
+        {% if not forloop.list %}, {% endif %}
+    {% endfor %}
+</p>
 <p class="date">
     Дата: {{ post.publish }} by {{ post.author }}
 </p>

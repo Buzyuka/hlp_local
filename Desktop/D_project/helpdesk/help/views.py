@@ -5,11 +5,16 @@ from django.views.decorators.http import require_POST
 from .models import Post, Comment
 from django.http import Http404
 from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
+from taggit.models import Tag
 
 # Create your views here.
 # Cтраница отображения списка заявок(постов)
-def post_list(request):
+def post_list(request, tag_slug=None):
     post_list = Post.published.all()
+    tag = None
+    if tag_slug:
+        tag = get_object_or_404(Tag, slug=tag_slug)
+        post_list = post_list.filter(tags__in=[tag])
     # Постраничная разбивка с отображением 5 задач на странице
     paginator = Paginator(post_list, 5)
     page_number = request.GET.get('page', 1)
@@ -22,7 +27,8 @@ def post_list(request):
         # Если страница находитсяя вне диапазона, то выдать последнюю страницу
         posts = paginator.page(paginator.num_pages)
 
-    return render(request, 'help/post/list.html', {'posts': posts})
+    return render(request, 'help/post/list.html', {'posts': posts,
+                                                   'tag': tag,})
 
 # Формирование ссылки поста (ссылка отображает дату создания поста и слаг), отображение полного содержания заявки
 def post_detail(request, year, month, day, post):
