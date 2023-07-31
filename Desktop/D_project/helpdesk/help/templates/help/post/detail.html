@@ -15,13 +15,13 @@
 </p>
 {% with comments.count as total_comments %}
 <h2>
-    {{ total_comments}} комментарий {{ total_comments|pluralize }}
+    {{ total_comments}} комментарий(я)
 </h2>
 {% endwith %}
 {% for comment in comments %}
 <div class="comment">
     <p class="info">
-        Комментарий {{ forloop.counter}} на {{ comment.name }}
+        Комментарий {{ forloop.counter}} от {{ comment.name }}
         {{ comment.created }}
     </p>
     <p>
