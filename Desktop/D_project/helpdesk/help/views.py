@@ -6,6 +6,7 @@ from .models import Post, Comment
 from django.http import Http404
 from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
 from taggit.models import Tag
+from django.db.models import Count
 
 # Create your views here.
 # Cтраница отображения списка заявок(постов)
@@ -45,9 +46,17 @@ def post_detail(request, year, month, day, post):
     # Форма для комментариев пользователями
     form = CommentForm()
 
+    #Список схожих постов
+    post_tags_ids = post.tags.values_list('id', flat=True)
+    similar_posts = Post.published.filter(tags__in=post_tags_ids)\
+                                   .exclude(id=post.id)
+    similar_posts = similar_posts.annotate(same_tags=Count('tags'))\
+                                   .order_by('-same_tags','-publish')[:4]
+
     return render(request, 'help/post/detail.html', {'post': post,
                                                      'comments': comments,
-                                                     'form': form
+                                                     'form': form,
+                                                     'similar_posts': similar_posts
                                                      })
 
 # Forms EMAIL

@@ -1,3 +1,4 @@
+{% load help_tags %}
 {% load static %}
 <!DOCTYPE html>
 <html>
@@ -12,7 +13,21 @@
 </div>
 <div id="sidebar">
     <h2>СКОРАЯ ПОМОЩЬ</h2>
-    <p>Список дел</p>
+    <p>
+        Список дел<br>
+        Мои написанные ренее посты: {% total_posts %}
+    </p>
+    <h3>Последние задачи</h3>
+    {% show_latest_posts %}
+    <h3>Последние комментарии</h3>
+    {% get_most_commented_posts as most_commented_posts %}
+    <ul>
+        {% for post in most_commented_posts %}
+        <li>
+            <a href="{{ post.get_absolute_url }}">{{ post.title}}</a>
+        </li>
+        {% endfor %}
+    </ul>
 </div>
 </body>
 </html>
