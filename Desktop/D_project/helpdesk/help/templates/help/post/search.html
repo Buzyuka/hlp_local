@@ -1,0 +1,30 @@
+{% extends "help/base.html" %}
+{% load help_tags %}
+
+{% block title %}Поиск{% endblock %}
+
+{% block content %}
+    {% if query %}
+        <h1>Задачи, которые содержат "{{ query }}"</h1>
+        <h3>
+            {% with results.count as total_results %}
+            Найдено {{ total_results }} задач {{ total_results|pluralize}}
+            {% endwith %}
+        </h3>
+        {% for post in results %}
+            <h4>
+                <a href="{{ post.get_absolute_url }}">{{ post.title }}</a>
+            </h4>
+        {{ post.body|markdown|truncatewords_html:12 }}
+        {% empty %}
+        <p>По вашему запросу ничего не найдено</p>
+        {% endfor %}
+        <p><a href="{% url 'help:post_search' %}">Искать снова</a></p>
+        {% else %}
+        <h1>Поиск по задачам</h1>
+        <form method="get">
+            {{ form.as_p }}
+            <input type="submit" value="Найти">
+        </form>
+    {% endif %}
+{% endblock %}

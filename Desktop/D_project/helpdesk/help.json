@@ -1,0 +1,1124 @@
+[
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2023-05-04T11:44:39.346Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Тестовое сообщение",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2023-05-04T13:30:22.024Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "Who was Django?",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2023-05-05T12:56:32.128Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Тестовое сообщение",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2023-05-05T12:57:09.303Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "Другой пост",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\", \"Status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2023-05-06T07:06:45.869Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "Who was Django?",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2023-05-06T08:38:45.081Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "4",
+    "object_repr": "Не работает ВПН",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2023-05-06T08:39:32.252Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "5",
+    "object_repr": "Нужен сертификат впн для менеджера",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2023-05-06T08:40:01.957Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "6",
+    "object_repr": "Не работает БК",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2023-05-06T08:40:40.322Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "7",
+    "object_repr": "Не могу отправить выписку",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2023-05-06T08:41:32.988Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "8",
+    "object_repr": "Нужен новый ноутбук в компанию",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2023-05-06T08:46:55.995Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "8",
+    "object_repr": "Нужен новый ноутбук в компанию",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 12,
+  "fields": {
+    "action_time": "2023-05-06T08:47:06.386Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "5",
+    "object_repr": "Нужен сертификат впн для менеджера",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 13,
+  "fields": {
+    "action_time": "2023-05-06T08:47:18.319Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "7",
+    "object_repr": "Не могу отправить выписку",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 14,
+  "fields": {
+    "action_time": "2023-05-06T08:47:26.769Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "6",
+    "object_repr": "Не работает БК",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 15,
+  "fields": {
+    "action_time": "2023-05-06T09:49:55.586Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "8",
+    "object_repr": "Нужен новый ноутбук в компанию",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 16,
+  "fields": {
+    "action_time": "2023-05-06T13:06:04.736Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "8",
+    "object_repr": "Нужен новый ноутбук в компанию",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 17,
+  "fields": {
+    "action_time": "2023-07-31T09:09:10.140Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Тестовое сообщение",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 18,
+  "fields": {
+    "action_time": "2023-07-31T12:00:52.315Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "4",
+    "object_repr": "Не работает ВПН",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 19,
+  "fields": {
+    "action_time": "2023-07-31T12:02:03.542Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "Who was Django?",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 20,
+  "fields": {
+    "action_time": "2023-07-31T13:30:04.611Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "9",
+    "object_repr": "Markdown post",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 21,
+  "fields": {
+    "action_time": "2023-07-31T13:48:10.272Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "9",
+    "object_repr": "Markdown post",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 22,
+  "fields": {
+    "action_time": "2023-08-01T07:32:17.812Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "9",
+    "object_repr": "Markdown post",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 23,
+  "fields": {
+    "action_time": "2023-08-01T07:33:19.984Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "9",
+    "object_repr": "Markdown post",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 24,
+  "fields": {
+    "action_time": "2023-08-01T10:53:02.160Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "1",
+    "object_repr": "localhost:8000",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Domain name\", \"Display name\"]}}]"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 1,
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": 1,
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 2,
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": 1,
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 3,
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": 1,
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 4,
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": 1,
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 5,
+  "fields": {
+    "name": "Can add permission",
+    "content_type": 2,
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 6,
+  "fields": {
+    "name": "Can change permission",
+    "content_type": 2,
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 7,
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": 2,
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 8,
+  "fields": {
+    "name": "Can view permission",
+    "content_type": 2,
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 9,
+  "fields": {
+    "name": "Can add group",
+    "content_type": 3,
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 10,
+  "fields": {
+    "name": "Can change group",
+    "content_type": 3,
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 11,
+  "fields": {
+    "name": "Can delete group",
+    "content_type": 3,
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 12,
+  "fields": {
+    "name": "Can view group",
+    "content_type": 3,
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 13,
+  "fields": {
+    "name": "Can add user",
+    "content_type": 4,
+    "codename": "add_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 14,
+  "fields": {
+    "name": "Can change user",
+    "content_type": 4,
+    "codename": "change_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 15,
+  "fields": {
+    "name": "Can delete user",
+    "content_type": 4,
+    "codename": "delete_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 16,
+  "fields": {
+    "name": "Can view user",
+    "content_type": 4,
+    "codename": "view_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 17,
+  "fields": {
+    "name": "Can add content type",
+    "content_type": 5,
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 18,
+  "fields": {
+    "name": "Can change content type",
+    "content_type": 5,
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 19,
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": 5,
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 20,
+  "fields": {
+    "name": "Can view content type",
+    "content_type": 5,
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 21,
+  "fields": {
+    "name": "Can add session",
+    "content_type": 6,
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 22,
+  "fields": {
+    "name": "Can change session",
+    "content_type": 6,
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 23,
+  "fields": {
+    "name": "Can delete session",
+    "content_type": 6,
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 24,
+  "fields": {
+    "name": "Can view session",
+    "content_type": 6,
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 25,
+  "fields": {
+    "name": "Can add post",
+    "content_type": 7,
+    "codename": "add_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 26,
+  "fields": {
+    "name": "Can change post",
+    "content_type": 7,
+    "codename": "change_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 27,
+  "fields": {
+    "name": "Can delete post",
+    "content_type": 7,
+    "codename": "delete_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 28,
+  "fields": {
+    "name": "Can view post",
+    "content_type": 7,
+    "codename": "view_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 29,
+  "fields": {
+    "name": "Can add comment",
+    "content_type": 8,
+    "codename": "add_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 30,
+  "fields": {
+    "name": "Can change comment",
+    "content_type": 8,
+    "codename": "change_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 31,
+  "fields": {
+    "name": "Can delete comment",
+    "content_type": 8,
+    "codename": "delete_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 32,
+  "fields": {
+    "name": "Can view comment",
+    "content_type": 8,
+    "codename": "view_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 33,
+  "fields": {
+    "name": "Can add tag",
+    "content_type": 9,
+    "codename": "add_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 34,
+  "fields": {
+    "name": "Can change tag",
+    "content_type": 9,
+    "codename": "change_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 35,
+  "fields": {
+    "name": "Can delete tag",
+    "content_type": 9,
+    "codename": "delete_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 36,
+  "fields": {
+    "name": "Can view tag",
+    "content_type": 9,
+    "codename": "view_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 37,
+  "fields": {
+    "name": "Can add tagged item",
+    "content_type": 10,
+    "codename": "add_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 38,
+  "fields": {
+    "name": "Can change tagged item",
+    "content_type": 10,
+    "codename": "change_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 39,
+  "fields": {
+    "name": "Can delete tagged item",
+    "content_type": 10,
+    "codename": "delete_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 40,
+  "fields": {
+    "name": "Can view tagged item",
+    "content_type": 10,
+    "codename": "view_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 41,
+  "fields": {
+    "name": "Can add site",
+    "content_type": 11,
+    "codename": "add_site"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 42,
+  "fields": {
+    "name": "Can change site",
+    "content_type": 11,
+    "codename": "change_site"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 43,
+  "fields": {
+    "name": "Can delete site",
+    "content_type": 11,
+    "codename": "delete_site"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 44,
+  "fields": {
+    "name": "Can view site",
+    "content_type": 11,
+    "codename": "view_site"
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$600000$YgPd7KHGbzWCHPfxHIIEBq$qsbuLhtFJooYyxA4O0aLeCIGltbSkB07FhYSTJWIXGU=",
+    "last_login": "2023-08-01T12:39:07.683Z",
+    "is_superuser": true,
+    "username": "admin",
+    "first_name": "",
+    "last_name": "",
+    "email": "a09@yandex.ru",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2023-05-04T11:35:23.730Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 1,
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 2,
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 3,
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 4,
+  "fields": {
+    "app_label": "auth",
+    "model": "user"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 5,
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 6,
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 7,
+  "fields": {
+    "app_label": "help",
+    "model": "post"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 8,
+  "fields": {
+    "app_label": "help",
+    "model": "comment"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 9,
+  "fields": {
+    "app_label": "taggit",
+    "model": "tag"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 10,
+  "fields": {
+    "app_label": "taggit",
+    "model": "taggeditem"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 11,
+  "fields": {
+    "app_label": "sites",
+    "model": "site"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "5i0a1g4byvutw30b7t2wf25inyqi97oe",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAQRf-FtSHysAMu3fsNZIYBqRpISrsy_ffapAvd3nPO_YiAy1zC0tMURhZXocTpdyOMr1R3wE-sjyZjq_M0ktwVedAu743T-3a4fwcFe_nWyV-0RqV9Bqejd9HAkDU5tsYQny0opoyQgT3ZZMhGADIu8-AQEJVYN99KOEQ:1puXG4:B6AeCZvBdySGBZdyHmBbMnkhjb80mBKt1lsOPvEdNSA",
+    "expire_date": "2023-05-18T11:36:24.880Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "ve1fhvzaix6qfkfe5sldh3qq5be7f9fd",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAQRf-FtSHysAMu3fsNZIYBqRpISrsy_ffapAvd3nPO_YiAy1zC0tMURhZXocTpdyOMr1R3wE-sjyZjq_M0ktwVedAu743T-3a4fwcFe_nWyV-0RqV9Bqejd9HAkDU5tsYQny0opoyQgT3ZZMhGADIu8-AQEJVYN99KOEQ:1qQoeZ:zUlrY4SSU3ZI6QZNOpTcSuvjkh8rXByrxY4SwWmJh1A",
+    "expire_date": "2023-08-15T12:39:07.686Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "vws8r69xphi7twpiumly4om4sjxkiynx",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAQRf-FtSHysAMu3fsNZIYBqRpISrsy_ffapAvd3nPO_YiAy1zC0tMURhZXocTpdyOMr1R3wE-sjyZjq_M0ktwVedAu743T-3a4fwcFe_nWyV-0RqV9Bqejd9HAkDU5tsYQny0opoyQgT3ZZMhGADIu8-AQEJVYN99KOEQ:1qQNlf:gUUD-ZYzX_wDLg6JSmQPGUl3rax3RxCHWYfD-QBWaiA",
+    "expire_date": "2023-08-14T07:56:39.481Z"
+  }
+},
+{
+  "model": "help.post",
+  "pk": 1,
+  "fields": {
+    "title": "Тестовое сообщение",
+    "slug": "test_message",
+    "author": 1,
+    "body": "Создание тестового сообщения",
+    "publish": "2023-05-04T11:41:19Z",
+    "created": "2023-05-04T11:44:39.340Z",
+    "updated": "2023-07-31T09:09:10.116Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "help.post",
+  "pk": 2,
+  "fields": {
+    "title": "Who was Django?",
+    "slug": "who-was-django",
+    "author": 1,
+    "body": "DriverFrameworks-UserMod Критическая системная ошибка Идентификатор события 10110 и 10111\r\nПривет\r\n\r\nИтак, я просто просматривал свой рабочий стол, и вдруг мой экран стал черным, и моя система перезагрузилась на экран блокировки. У меня есть графический процессор AMD с текущей версией драйвера 20.7.2. Все мои другие драйверы обновлены до последней версии Windows 10. У меня есть. Если кто-нибудь может мне помочь с этим, я был бы очень благодарен. Я перечислил журналы событий ниже. Ваше здоровье :)\r\n\r\nИмя журнала: Система\r\n\r\nИсточник: Microsoft-Windows-DriverFrameworks-UserMode.\r\n\r\nДата: 25.07.2020 15:25:45\r\n\r\nИдентификатор события: 10110\r\n\r\nКатегория задачи: Проблемы с драйвером пользовательского режима.\r\n\r\nУровень: Критический\r\n\r\nКлючевые слова:      \r\n\r\nПользователь: СИСТЕМА\r\n\r\nКомпьютер: ChadsPC\r\n\r\nОписание:\r\n\r\nВозникла проблема с одним или несколькими драйверами пользовательского режима, и процесс размещения был остановлен. Это может временно прервать вашу возможность доступа к устройствам.\r\n\r\nXML-файл события:\r\n\r\n<Событие xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\r\n\r\n  <Система>\r\n\r\n    <Provider Name=\"Microsoft-Windows-DriverFrameworks-UserMode\" Guid=\"{2e35aaeb-857f-4beb-a418-2e6c0e54d988}\" />\r\n\r\n    <EventID>10110</EventID>\r\n\r\n    <Версия>1</Версия>\r\n\r\n    <Уровень>1</Уровень>\r\n\r\n    <Задача>64</Задача>\r\n\r\n    <Код операции>0</Код операции>\r\n\r\n    <Ключевые слова>0x2000000000000000</Ключевые слова>\r\n\r\n    <TimeCreated SystemTime=\"2020-07-25T19:25:45.2366573Z\" />\r\n\r\n    <EventRecordID>5941</EventRecordID>\r\n\r\n    <Корреляция />\r\n\r\n    <Execution ProcessID=\"944\" ThreadID=\"588\" />\r\n\r\n    <Канал>Система</Канал>\r\n\r\n    <Computer>ChadsPC</Computer>\r\n\r\n    <Идентификатор пользователя безопасности = \"S-1-5-18\" />\r\n\r\n  </Система>\r\n\r\n  <Данные пользователя>\r\n\r\n    <UMDFHostProblem xmlns=\"http://www.microsoft.com/DriverFrameworks/UserMode/Event\">\r\n\r\n      <LifetimeId>{803e6ca8-5cbd-4da0-85f3-5e1310628c9e}</LifetimeId>\r\n\r\n      <Проблема>3</Проблема>\r\n\r\n      <ДетектедБи>2</ДетектедБи>\r\n\r\n      <АктивнаяОперация>3</АктивОперация>\r\n\r\n      <КодВыхода>259</КодВыхода>\r\n\r\n      <Сообщение>72448</Сообщение>\r\n\r\n      <Статус>4294967295</Статус>\r\n\r\n    </UMDFHostProblem>\r\n\r\n  </Данные пользователя>\r\n\r\n</Событие>\r\n\r\nИмя журнала: Система\r\n\r\nИсточник: Microsoft-Windows-DriverFrameworks-UserMode.\r\n\r\nДата: 25.07.2020 15:25:45\r\n\r\nИдентификатор события: 10111\r\n\r\nКатегория задачи: Проблемы с драйвером пользовательского режима.\r\n\r\nУровень: Критический\r\n\r\nКлючевые слова:      \r\n\r\nПользователь: СИСТЕМА\r\n\r\nКомпьютер: ChadsPC\r\n\r\nОписание:\r\n\r\nHID-совместимая гарнитура устройства (расположение (неизвестно)) отключена из-за сбоя драйвера пользовательского режима. Windows попытается перезагрузить устройство еще 4 раза. Пожалуйста, свяжитесь с производителем устройства для получения дополнительной информации об этой проблеме.\r\n\r\nXML-файл события:\r\n\r\n<Событие xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\r\n\r\n  <Система>\r\n\r\n    <Provider Name=\"Microsoft-Windows-DriverFrameworks-UserMode\" Guid=\"{2e35aaeb-857f-4beb-a418-2e6c0e54d988}\" />\r\n\r\n    <EventID>10111</EventID>\r\n\r\n    <Версия>1</Версия>\r\n\r\n    <Уровень>1</Уровень>\r\n\r\n    <Задача>64</Задача>\r\n\r\n    <Код операции>0</Код операции>\r\n\r\n    <Ключевые слова>0x2000000000000000</Ключевые слова>\r\n\r\n    <TimeCreated SystemTime=\"2020-07-25T19:25:45.2381099Z\" />\r\n\r\n    <EventRecordID>5942</EventRecordID>\r\n\r\n    <Корреляция />\r\n\r\n    <Execution ProcessID=\"944\" ThreadID=\"588\" />\r\n\r\n    <Канал>Система</Канал>\r\n\r\n    <Computer>ChadsPC</Computer>\r\n\r\n    <Идентификатор пользователя безопасности = \"S-1-5-18\" />\r\n\r\n  </Система>\r\n\r\n  <Данные пользователя>\r\n\r\n    <UmdfDeviceOffline xmlns=\"http://www.microsoft.com/DriverFrameworks/UserMode/Event\">\r\n\r\n      <LifetimeId>{803e6ca8-5cbd-4da0-85f3-5e1310628c9e}</LifetimeId>\r\n\r\n      <FriendlyName>HID-совместимая гарнитура</FriendlyName>\r\n\r\n      <Местоположение>(неизвестно)</Местоположение>\r\n\r\n      <InstanceId>HID\\VID_0951&PID_16A4&MI_03&COL02\\8&2DFA5F00&0&0001</InstanceId>\r\n\r\n      <RestartCount>4</RestartCount>\r\n\r\n    </UmdfDeviceOffline>\r\n\r\n  </Данные пользователя>\r\n\r\n</Событие>",
+    "publish": "2023-05-04T13:28:55Z",
+    "created": "2023-05-04T13:30:22.021Z",
+    "updated": "2023-07-31T12:02:03.535Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "help.post",
+  "pk": 3,
+  "fields": {
+    "title": "Другой пост",
+    "slug": "anothe-post",
+    "author": 1,
+    "body": "Тест добавления сообщения из консоли",
+    "publish": "2023-05-05T09:32:04Z",
+    "created": "2023-05-05T09:32:17.240Z",
+    "updated": "2023-05-05T12:57:09.301Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "help.post",
+  "pk": 4,
+  "fields": {
+    "title": "Не работает ВПН",
+    "slug": "ne-rabotaet-vpn",
+    "author": 1,
+    "body": "Добрый день, у меня не работает ВПН",
+    "publish": "2023-05-06T08:37:55Z",
+    "created": "2023-05-06T08:38:45.081Z",
+    "updated": "2023-07-31T12:00:52.307Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "help.post",
+  "pk": 5,
+  "fields": {
+    "title": "Нужен сертификат впн для менеджера",
+    "slug": "nuzhen-sertifikat-vpn-dlya-menedzhera",
+    "author": 1,
+    "body": "Здравствуйте, нам нужен сертификат для входа на удаленку",
+    "publish": "2023-05-06T08:38:51Z",
+    "created": "2023-05-06T08:39:32.252Z",
+    "updated": "2023-05-06T08:47:06.377Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "help.post",
+  "pk": 6,
+  "fields": {
+    "title": "Не работает БК",
+    "slug": "ne-rabotaet-bk",
+    "author": 1,
+    "body": "Не работает БК",
+    "publish": "2023-05-06T08:39:35Z",
+    "created": "2023-05-06T08:40:01.957Z",
+    "updated": "2023-05-06T08:47:26.769Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "help.post",
+  "pk": 7,
+  "fields": {
+    "title": "Не могу отправить выписку",
+    "slug": "ne-mogu-otpravit-vypisku",
+    "author": 1,
+    "body": "Здравствуйте, не могу отправить выписку, выдает ошибку.",
+    "publish": "2023-05-06T08:40:05Z",
+    "created": "2023-05-06T08:40:40.314Z",
+    "updated": "2023-05-06T08:47:18.311Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "help.post",
+  "pk": 8,
+  "fields": {
+    "title": "Нужен новый ноутбук в компанию",
+    "slug": "nuzhen-novyj-noutbuk-v-kompaniyu",
+    "author": 1,
+    "body": "Здравствуйте, нам нужен новый банковский ноутбук.",
+    "publish": "2023-05-06T08:40:42Z",
+    "created": "2023-05-06T08:41:32.988Z",
+    "updated": "2023-05-06T13:06:04.733Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "help.post",
+  "pk": 9,
+  "fields": {
+    "title": "Markdown post",
+    "slug": "markdown-post",
+    "author": 1,
+    "body": "*This emphasized* and  **this is more emphasized**.\r\n\r\nhere is a list:\r\n\r\n* One\r\n* Two\r\n* Three\r\n\r\nAnd a [link tothe Django website](https://www.djangoproject.com/).",
+    "publish": "2023-07-31T13:24:52Z",
+    "created": "2023-07-31T13:30:04.601Z",
+    "updated": "2023-08-01T07:33:19.975Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "help.comment",
+  "pk": 1,
+  "fields": {
+    "post": 6,
+    "name": "a01",
+    "email": "wolfmate99@ya.lv",
+    "body": "test",
+    "created": "2023-05-24T09:39:40.737Z",
+    "updated": "2023-05-24T09:39:40.737Z",
+    "active": true
+  }
+},
+{
+  "model": "help.comment",
+  "pk": 2,
+  "fields": {
+    "post": 6,
+    "name": "a01",
+    "email": "wolfmate99@ya.lv",
+    "body": "test",
+    "created": "2023-05-24T09:40:22.840Z",
+    "updated": "2023-05-24T09:40:22.840Z",
+    "active": true
+  }
+},
+{
+  "model": "help.comment",
+  "pk": 3,
+  "fields": {
+    "post": 6,
+    "name": "Марина",
+    "email": "a09@yandex.ru",
+    "body": "Ответ на тестовый комментарий",
+    "created": "2023-07-28T11:53:10.711Z",
+    "updated": "2023-07-28T11:53:10.711Z",
+    "active": true
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 1,
+  "fields": {
+    "name": "jazz",
+    "slug": "jazz"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 2,
+  "fields": {
+    "name": "django",
+    "slug": "django"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 3,
+  "fields": {
+    "name": "music",
+    "slug": "music"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 4,
+  "fields": {
+    "name": "test",
+    "slug": "test"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 5,
+  "fields": {
+    "name": "other",
+    "slug": "other"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 6,
+  "fields": {
+    "name": "markdown",
+    "slug": "markdown"
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 4,
+  "fields": {
+    "tag": 4,
+    "content_type": 7,
+    "object_id": 1
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 5,
+  "fields": {
+    "tag": 5,
+    "content_type": 7,
+    "object_id": 1
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 6,
+  "fields": {
+    "tag": 4,
+    "content_type": 7,
+    "object_id": 4
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 7,
+  "fields": {
+    "tag": 5,
+    "content_type": 7,
+    "object_id": 4
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 8,
+  "fields": {
+    "tag": 4,
+    "content_type": 7,
+    "object_id": 2
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 9,
+  "fields": {
+    "tag": 5,
+    "content_type": 7,
+    "object_id": 2
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 10,
+  "fields": {
+    "tag": 6,
+    "content_type": 7,
+    "object_id": 9
+  }
+},
+{
+  "model": "sites.site",
+  "pk": 1,
+  "fields": {
+    "domain": "localhost:8000",
+    "name": "localhost:8000"
+  }
+}
+]
